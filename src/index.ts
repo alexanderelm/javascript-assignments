@@ -1,6 +1,6 @@
-import { minToSec } from './exercises/01-test'
+import { minutesToSeconds } from './exercises/Exercise-1-minutesToSeconds'
 
 /**
  * converts 5 minutes to seconds in console
  */
-console.log(minToSec(5))
+console.log(minutesToSeconds(8))
