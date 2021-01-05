@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/alexanderelm/javascript-assignments#readme",
   "dependencies": {
-    "exercises": "^1.0.2",
-    "parcel-bundler": "^1.12.4",
-    "src": "^1.1.2"
+    "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
     "prettier": "2.2.1",
