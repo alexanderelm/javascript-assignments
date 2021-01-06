@@ -39,4 +39,4 @@ console.log(findFirstNumber([4, 3, 8, 9]))
 /**
  * Converts hours to seconds
  */
-console.log(`${hoursInSeconds(12)} Seconds`)
+console.log(`${hoursInSeconds(0)} Seconds`)
