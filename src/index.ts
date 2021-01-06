@@ -4,6 +4,7 @@ import { areaOfTriangle } from './exercises/exercise-3-area-of-triangle'
 import { ageToDays } from './exercises/exercise-4-age-to-days'
 import { calculatePower } from './exercises/exercise-5-power-calculator'
 import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
+import { remainder } from './exercises/exercise-8-remainder'
 
 /**
  * converts 5 minutes to seconds in console
@@ -34,3 +35,8 @@ console.log(`${calculatePower(230, 20)} Watt`)
  * Takes an array and returns the first number of the array
  */
 console.log(findFirstNumber([4, 3, 8, 9]))
+
+/**
+ * Finds the remainder of a division with 2 numbers
+ */
+console.log(remainder(-9, 45))
