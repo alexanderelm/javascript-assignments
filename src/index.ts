@@ -5,6 +5,7 @@ import { ageToDays } from './exercises/exercise-4-age-to-days'
 import { calculatePower } from './exercises/exercise-5-power-calculator'
 import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
 import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
+import { remainder } from './exercises/exercise-8-remainder'
 
 /**
  * converts 5 minutes to seconds in console
@@ -40,3 +41,8 @@ console.log(findFirstNumber([4, 3, 8, 9]))
  * Converts hours to seconds
  */
 console.log(`${hoursInSeconds(5)} Seconds`)
+
+/**
+ * Finds the remainder of a division with 2 numbers
+ */
+console.log(remainder(-9, 45))
