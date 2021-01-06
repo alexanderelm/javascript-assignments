@@ -2,7 +2,7 @@ import { minutesToSeconds } from './exercises/exercise-1-minutes-to-seconds'
 import { nextNumber } from './exercises/exercise-2-next-number'
 import { areaOfTriangle } from './exercises/exercise-3-area-of-triangle'
 import { ageToDays } from './exercises/exercise-4-age-to-days'
-import { power } from './exercises/exercise-5-power-calculator'
+import { calculatePower } from './exercises/exercise-5-power-calculator'
 
 /**
  * converts 5 minutes to seconds in console
@@ -27,4 +27,4 @@ console.log(ageToDays(26))
 /**
  * Calculates power from voltage and current
  */
-console.log(`${power(230, 20)} Watt`)
+console.log(`${calculatePower(230, 20)} Watt`)
