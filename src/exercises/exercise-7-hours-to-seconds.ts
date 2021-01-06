@@ -4,7 +4,7 @@
  * @returns Hours in seconds
  */
 export const hoursInSeconds = (hours: number): number => {
-  if (hours >= 0) throw new Error('Must be a positive number')
+  if (hours <= 0) throw new Error('Must be a positive number')
 
   const oneHourInSeconds = 3600
 
