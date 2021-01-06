@@ -4,5 +4,5 @@
  * @returns True if zeroCheck is less or equal 0 and false if its a valuer higher than 0
  */
 export const lessOrEqual = (zeroCheck: number): boolean => {
-  return zeroCheck <= 0;
+  return zeroCheck <= 0
 }
