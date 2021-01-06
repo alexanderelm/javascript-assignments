@@ -4,6 +4,7 @@ import { areaOfTriangle } from './exercises/exercise-3-area-of-triangle'
 import { ageToDays } from './exercises/exercise-4-age-to-days'
 import { calculatePower } from './exercises/exercise-5-power-calculator'
 import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
+import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
 
 /**
  * converts 5 minutes to seconds in console
@@ -34,3 +35,8 @@ console.log(`${calculatePower(230, 20)} Watt`)
  * Takes an array and returns the first number of the array
  */
 console.log(findFirstNumber([4, 3, 8, 9]))
+
+/**
+ * Converts hours to seconds
+ */
+console.log(`${hoursInSeconds(0)} Seconds`)
