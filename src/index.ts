@@ -33,4 +33,4 @@ console.log(`${calculatePower(230, 20)} Watt`)
 /**
  * Takes an array and returns the first number of the array
  */
-console.log(findFirstNumber([9, 5, 8, 2, 12]))
+console.log(findFirstNumber([4, 3, 8, 9]))
