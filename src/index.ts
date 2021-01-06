@@ -3,6 +3,7 @@ import { nextNumber } from './exercises/exercise-2-next-number'
 import { areaOfTriangle } from './exercises/exercise-3-area-of-triangle'
 import { ageToDays } from './exercises/exercise-4-age-to-days'
 import { calculatePower } from './exercises/exercise-5-power-calculator'
+import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
 
 /**
  * converts 5 minutes to seconds in console
@@ -28,3 +29,8 @@ console.log(ageToDays(26))
  * Calculates power from voltage and current
  */
 console.log(`${calculatePower(230, 20)} Watt`)
+
+/**
+ * Takes an array and returns the first number of the array
+ */
+console.log(findFirstNumber([9, 5, 8, 2, 12]))
