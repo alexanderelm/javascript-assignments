@@ -8,6 +8,7 @@ import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
 import { remainder } from './exercises/exercise-8-remainder'
 import { lessOrEqual } from './exercises/exercise-9-less-or-equal-zero'
 import { lessThan100 } from './exercises/exercise-10-less-than-100'
+import { andOperator } from './exercises/exercise-11-using-and-operator'
 
 /**
  * converts 5 minutes to seconds in console
@@ -75,5 +76,13 @@ console.groupEnd()
 /**
  * Checks if the two numbers combined equals more or less than 100
  */
-console.log('Exercise 10')
+console.group('Exercise 10')
 console.log(lessThan100(20, 50))
+console.groupEnd()
+
+/**
+ * Checks if value a and b is true
+ */
+console.group('Exercise 11')
+console.log(andOperator(true, true))
+console.groupEnd()
