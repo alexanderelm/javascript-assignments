@@ -57,4 +57,5 @@ console.log(lessOrEqual(5))
 /**
  * Checks if the two numbers combined equals more or less than 100
  */
+console.log('Exercise 10')
 console.log(lessThan100(20, 50))
