@@ -10,6 +10,7 @@ import { lessOrEqual } from './exercises/exercise-9-less-or-equal-zero'
 import { lessThan100 } from './exercises/exercise-10-less-than-100'
 import { andOperator } from './exercises/exercise-11-using-and-operator'
 import { equalNumbers } from './exercises/exercise-12-equal-numbers'
+import { addNumbers } from './exercises/exercise-13-add-up-numbers'
 
 /**
  * converts 5 minutes to seconds in console
@@ -93,4 +94,11 @@ console.groupEnd()
  */
 console.group('Exercise 12')
 console.log(equalNumbers(2, 2))
+console.groupEnd()
+
+/**
+ * Sums the numbers up to the number defined (1 + 2 + 3 ...n)
+ */
+console.group('Exercise 13')
+console.log(addNumbers(600))
 console.groupEnd()
