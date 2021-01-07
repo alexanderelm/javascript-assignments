@@ -6,7 +6,8 @@ import { calculatePower } from './exercises/exercise-5-power-calculator'
 import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
 import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
 import { remainder } from './exercises/exercise-8-remainder'
-import {lessOrEqual} from './exercises/exercise-9-less-or-equal-zero'
+import { lessOrEqual } from './exercises/exercise-9-less-or-equal-zero'
+import { andOperator } from './exercises/exercise-11-using-and-operator'
 
 /**
  * converts 5 minutes to seconds in console
@@ -52,3 +53,8 @@ console.log(remainder(-9, 45))
  * checks is the input is less, equal or more than 0
  */
 console.log(lessOrEqual(5))
+
+/**
+ * Checks if both first and seconds argument is true and returns true if it's the case, else it will return false
+ */
+console.log(andOperator(true, false))
