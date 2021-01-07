@@ -9,6 +9,7 @@ import { remainder } from './exercises/exercise-8-remainder'
 import { lessOrEqual } from './exercises/exercise-9-less-or-equal-zero'
 import { lessThan100 } from './exercises/exercise-10-less-than-100'
 import { andOperator } from './exercises/exercise-11-using-and-operator'
+import { equalNumbers } from './exercises/exercise-12-equal-numbers'
 
 /**
  * converts 5 minutes to seconds in console
@@ -85,4 +86,11 @@ console.groupEnd()
  */
 console.group('Exercise 11')
 console.log(andOperator(true, true))
+console.groupEnd()
+
+/**
+ * checks the two values and returns true if they're equal
+ */
+console.group('Exercise 12')
+console.log(equalNumbers(2, 2))
 console.groupEnd()
