@@ -57,4 +57,5 @@ console.log(lessOrEqual(5))
 /**
  * Checks if both first and seconds argument is true and returns true if it's the case, else it will return false
  */
+console.log('Exercise 11')
 console.log(andOperator(true, false))
