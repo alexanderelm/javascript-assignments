@@ -12,41 +12,49 @@ import { lessThan100 } from './exercises/exercise-10-less-than-100'
 /**
  * converts 5 minutes to seconds in console
  */
+console.log('Exercise 1')
 console.log(minutesToSeconds(8))
 
 /**
  * Takes the initialNumber and adds a value of 1, converting -3 to -2
  */
+console.log('Exercise 2')
 console.log(nextNumber(-3))
 
 /**
  * Calculates area of a triangle from a base and height parameter
  */
+console.log('Exercise 3')
 console.log(areaOfTriangle(10, 10))
 
 /**
  * Converts and amount of years to days
  */
+console.log('Exercise 4')
 console.log(ageToDays(26))
 
 /**
  * Calculates power from voltage and current
  */
-console.log(`${calculatePower(230, 20)} Watt`)
+console.log('Exercise 5')
+console.log(calculatePower(230, 20))
 
 /**
  * Takes an array and returns the first number of the array
  */
+console.log('Exercise 6')
 console.log(findFirstNumber([4, 3, 8, 9]))
 
 /**
  * Converts hours to seconds
  */
-console.log(`${hoursInSeconds(5)} Seconds`)
+console.log('Exercise 7')
+console.log(hoursInSeconds(5))
 
 /**
  * Finds the remainder of a division with 2 numbers
  */
+console.log('Exercise 8')
 console.log(remainder(-9, 45))
 
 /**
