@@ -7,7 +7,7 @@ import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
 import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
 import { remainder } from './exercises/exercise-8-remainder'
 import { lessOrEqual } from './exercises/exercise-9-less-or-equal-zero'
-import { andOperator } from './exercises/exercise-11-using-and-operator'
+import { lessThan100 } from './exercises/exercise-10-less-than-100'
 
 /**
  * converts 5 minutes to seconds in console
@@ -73,8 +73,7 @@ console.log(lessOrEqual(5))
 console.groupEnd()
 
 /**
- * Checks if both first and seconds argument is true and returns true if it's the case, else it will return false
+ * Checks if the two numbers combined equals more or less than 100
  */
-console.group('Exercise 11')
-console.log(andOperator(true, false))
-console.groupEnd()
+console.log('Exercise 10')
+console.log(lessThan100(20, 50))
