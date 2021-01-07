@@ -6,6 +6,7 @@ import { calculatePower } from './exercises/exercise-5-power-calculator'
 import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
 import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
 import { remainder } from './exercises/exercise-8-remainder'
+import {lessOrEqual} from './exercises/exercise-9-less-or-equal-zero'
 
 /**
  * converts 5 minutes to seconds in console
@@ -46,3 +47,8 @@ console.log(`${hoursInSeconds(5)} Seconds`)
  * Finds the remainder of a division with 2 numbers
  */
 console.log(remainder(-9, 45))
+
+/**
+ * checks is the input is less, equal or more than 0
+ */
+console.log(lessOrEqual(5))
