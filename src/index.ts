@@ -6,7 +6,8 @@ import { calculatePower } from './exercises/exercise-5-power-calculator'
 import { findFirstNumber } from './exercises/exercise-6-first-element-in-array'
 import { hoursInSeconds } from './exercises/exercise-7-hours-to-seconds'
 import { remainder } from './exercises/exercise-8-remainder'
-import {lessOrEqual} from './exercises/exercise-9-less-or-equal-zero'
+import { lessOrEqual } from './exercises/exercise-9-less-or-equal-zero'
+import { lessThan100 } from './exercises/exercise-10-less-than-100'
 
 /**
  * converts 5 minutes to seconds in console
@@ -52,3 +53,8 @@ console.log(remainder(-9, 45))
  * checks is the input is less, equal or more than 0
  */
 console.log(lessOrEqual(5))
+
+/**
+ * Checks if the two numbers combined equals more or less than 100
+ */
+console.log(lessThan100(20, 50))
