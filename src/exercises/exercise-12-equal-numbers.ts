@@ -5,5 +5,5 @@
  * @returns True if the num1 parameter is equal to the num2 parameter
  */
 export const equalNumbers = (num1: number, num2: number): boolean => {
-  return num1 == num2
+  return num1 === num2
 }
