@@ -12,6 +12,10 @@ import { andOperator } from './exercises/exercise-11-using-and-operator'
 import { equalNumbers } from './exercises/exercise-12-equal-numbers'
 import { addNumbers } from './exercises/exercise-13-add-up-numbers'
 import { minMaxValue } from './exercises/exercise-14-smallest-to-biggest-number'
+import {
+  sortDrinkByPrice,
+  testDrinks,
+} from './exercises/exercise-15-drinks-sorting'
 
 /**
  * converts 5 minutes to seconds in console
@@ -109,4 +113,17 @@ console.groupEnd()
  */
 console.group('Exercise 14')
 console.log(minMaxValue([1, 3, 2]))
+console.groupEnd()
+
+/**
+ * Sorts arrays with the parameters name and price, by price
+ */
+console.group('Exercise 15')
+console.log(
+  sortDrinkByPrice([
+    { name: 'johnny', price: 5 },
+    { name: 'simon', price: 22 },
+  ])
+)
+console.log(testDrinks)
 console.groupEnd()
