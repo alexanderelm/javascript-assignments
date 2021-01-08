@@ -16,9 +16,10 @@ import {
   sortDrinkByPrice,
   testDrinks,
 } from './exercises/exercise-15-drinks-sorting'
+import { findPotatoes } from './exercises/exercise-16-find-potatoes'
 
 /**
- * converts 5 minutes to seconds in console
+ * Converts 5 minutes to seconds in console
  */
 console.group('Exercise 1')
 console.log(minutesToSeconds(8))
@@ -74,7 +75,7 @@ console.log(remainder(-9, 45))
 console.groupEnd()
 
 /**
- * checks is the input is less, equal or more than 0
+ * Checks is the input is less, equal or more than 0
  */
 console.group('Exercise 9')
 console.log(lessOrEqual(5))
@@ -95,7 +96,7 @@ console.log(andOperator(true, true))
 console.groupEnd()
 
 /**
- * checks the two values and returns true if they're equal
+ * Checks the two values and returns true if they're equal
  */
 console.group('Exercise 12')
 console.log(equalNumbers(2, 2))
@@ -126,4 +127,15 @@ console.log(
   ])
 )
 console.log(testDrinks)
+console.groupEnd()
+
+/**
+ * Checks the amount of times potato is found in the string
+ */
+console.group('Exercise 16')
+console.log(
+  findPotatoes(
+    'potatopotatopotatopotatopotatopotatopotatopotatopotatopotatopotatopotatoapplepotatopotatopotatopotatopotatopotatopotatopotato'
+  )
+)
 console.groupEnd()
