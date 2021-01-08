@@ -16,6 +16,7 @@ import {
   sortDrinkByPrice,
   testDrinks,
 } from './exercises/exercise-15-drinks-sorting'
+import { findPotatoes } from './exercises/exercise-16-find-potatoes'
 
 /**
  * converts 5 minutes to seconds in console
@@ -126,4 +127,15 @@ console.log(
   ])
 )
 console.log(testDrinks)
+console.groupEnd()
+
+/**
+ * checks the amount of times potato is found in the string
+ */
+console.group('Exercise 16')
+console.log(
+  findPotatoes(
+    'potatopotatopotatopotatopotatopotatopotatopotatopotatopotatopotatopotatoapplepotatopotatopotatopotatopotatopotatopotatopotato'
+  )
+)
 console.groupEnd()
