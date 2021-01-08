@@ -17,6 +17,7 @@ import {
   testDrinks,
 } from './exercises/exercise-15-drinks-sorting'
 import { findPotatoes } from './exercises/exercise-16-find-potatoes'
+import { filterOutStrings } from './exercises/exercise-17-filter-strings-array'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -138,4 +139,11 @@ console.log(
     'potatopotatopotatopotatopotatopotatopotatopotatopotatopotatopotatopotatoapplepotatopotatopotatopotatopotatopotatopotatopotato'
   )
 )
+console.groupEnd()
+
+/**
+ *  Filters out strings from array
+ */
+console.group('Exercise 17')
+console.log(filterOutStrings([1, 'anders', 'john', 3]))
 console.groupEnd()
