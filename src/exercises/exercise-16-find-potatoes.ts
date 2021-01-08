@@ -9,6 +9,6 @@ export const findPotatoes = (phrase: string): number => {
   // Find matches by regex
   const matches = phrase.match(regex)?.length
 
-  // If matches if falsy matches will set to 0
+  // If matches is falsy matches will set to 0
   return matches ? matches : 0
 }
