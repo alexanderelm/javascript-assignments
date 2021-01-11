@@ -18,6 +18,7 @@ import {
 } from './exercises/exercise-15-drinks-sorting'
 import { findPotatoes } from './exercises/exercise-16-find-potatoes'
 import { filterOutStrings } from './exercises/exercise-17-filter-strings-array'
+import { getOnlyEven } from './exercises/exercise-18-get-only-even'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -142,8 +143,15 @@ console.log(
 console.groupEnd()
 
 /**
- *  Filters out strings from array
+ * Filters out strings from array
  */
 console.group('Exercise 17')
 console.log(filterOutStrings([1, 'anders', 'john', 3]))
+console.groupEnd()
+
+/**
+ * Filters out uneven numbers
+ */
+console.group('Exercise 18')
+console.log(getOnlyEven([1, 4, 3, 5, 7, 2, 8]))
 console.groupEnd()
