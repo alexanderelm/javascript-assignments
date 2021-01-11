@@ -158,7 +158,7 @@ console.log(getOnlyEven([1, 4, 3, 5, 7, 2, 8]))
 console.groupEnd()
 
 /**
- *
+ * Sorts and array of string by the length of the string, shortest first
  */
 console.group('Exercise 19')
 console.log(sortByLength(['hey', 'John', 'megetLangString', 'enToEnTo']))
