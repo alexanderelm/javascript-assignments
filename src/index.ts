@@ -20,6 +20,7 @@ import { findPotatoes } from './exercises/exercise-16-find-potatoes'
 import { filterOutStrings } from './exercises/exercise-17-filter-strings-array'
 import { getOnlyEven } from './exercises/exercise-18-get-only-even'
 import { sortByLength } from './exercises/exercise-19-sort-by-length'
+import { enoughChange } from './exercises/exercise-20-convenience-store'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -162,4 +163,11 @@ console.groupEnd()
  */
 console.group('Exercise 19')
 console.log(sortByLength(['hey', 'John', 'megetLangString', 'enToEnTo']))
+console.groupEnd()
+
+/**
+ * Sums up and rounds the total value of change and checks if theres enough to effort the total
+ */
+console.group('Exercise 20')
+console.log(enoughChange([1, 2.3, 5, 3.9], 44))
 console.groupEnd()
