@@ -19,6 +19,7 @@ import {
 import { findPotatoes } from './exercises/exercise-16-find-potatoes'
 import { filterOutStrings } from './exercises/exercise-17-filter-strings-array'
 import { getOnlyEven } from './exercises/exercise-18-get-only-even'
+import { sortByLength } from './exercises/exercise-19-sort-by-length'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -154,4 +155,11 @@ console.groupEnd()
  */
 console.group('Exercise 18')
 console.log(getOnlyEven([1, 4, 3, 5, 7, 2, 8]))
+console.groupEnd()
+
+/**
+ * Sorts and array of string by the length of the string, shortest first
+ */
+console.group('Exercise 19')
+console.log(sortByLength(['hey', 'John', 'megetLangString', 'enToEnTo']))
 console.groupEnd()
