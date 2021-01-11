@@ -21,6 +21,7 @@ import { filterOutStrings } from './exercises/exercise-17-filter-strings-array'
 import { getOnlyEven } from './exercises/exercise-18-get-only-even'
 import { sortByLength } from './exercises/exercise-19-sort-by-length'
 import { enoughChange } from './exercises/exercise-20-convenience-store'
+import { sumBudgets } from './exercises/exercise-21-sum-of-budget'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -171,3 +172,15 @@ console.groupEnd()
 console.group('Exercise 20')
 console.log(enoughChange([1, 2.3, 5, 3.9], 44))
 console.groupEnd()
+
+/**
+ * Sums up the budget of input objects
+ */
+console.group('Exercise 21')
+console.log(
+  sumBudgets([
+    { name: 'john', age: 21, budget: 19600 },
+    { name: 'Alex', age: 24, budget: 20000 },
+    { name: 'Martin', age: 16, budget: 2700 },
+  ])
+)
