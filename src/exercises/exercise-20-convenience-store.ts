@@ -1,4 +1,4 @@
-import { round } from '../utils/round'
+import { roundToHalves } from '../utils/roundToHalves'
 
 /**
  * Function that calculates total money from change and compares to a total price, all rounded with a factor of halves to follow the dkk currency
@@ -10,5 +10,5 @@ export const enoughChange = (change: number[], total: number): boolean => {
     return acc + current
   }, 0)
 
-  return round(summedMoney) > round(total)
+  return roundToHalves(summedMoney) > roundToHalves(total)
 }
