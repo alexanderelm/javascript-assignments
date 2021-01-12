@@ -24,6 +24,7 @@ import { enoughChange } from './exercises/exercise-20-convenience-store'
 import { sumBudgets } from './exercises/exercise-21-sum-of-budget'
 import { freeShipping } from './exercises/exercise-22-online-shopping'
 import { expensiveOrders } from './exercises/exercise-23-expensive-orders'
+import { getLongDevNames } from './exercises/exercise-24-long-names'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -200,5 +201,18 @@ console.groupEnd()
 console.group('Exercise 23')
 console.log(
   expensiveOrders({ john: 40, lars: 50, loldemort: 150, morten: 200 }, 100)
+)
+console.groupEnd()
+
+/**
+ * Filters out items with a key of less characters than the length parameter
+ */
+console.group('Exercise 24')
+console.log(
+  getLongDevNames({
+    alexander: 'developer',
+    martin: 'long developer name',
+    Christoffer: 'head of development',
+  })
 )
 console.groupEnd()
