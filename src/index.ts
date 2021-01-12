@@ -22,6 +22,7 @@ import { getOnlyEven } from './exercises/exercise-18-get-only-even'
 import { sortByLength } from './exercises/exercise-19-sort-by-length'
 import { enoughChange } from './exercises/exercise-20-convenience-store'
 import { sumBudgets } from './exercises/exercise-21-sum-of-budget'
+import { freeShipping } from './exercises/exercise-22-online-shopping'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -184,3 +185,10 @@ console.log(
     { name: 'Martin', age: 16, budget: 2700 },
   ])
 )
+
+/**
+ * Sums the price of all the entries and checks weather or not the cart value is above the threshold of free shipping
+ */
+console.group('Exercise 22')
+console.log(freeShipping({ shampoo: 30, citron: 20 }))
+console.groupEnd()
