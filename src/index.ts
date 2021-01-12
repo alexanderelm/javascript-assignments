@@ -195,8 +195,10 @@ console.log(freeShipping({ shampoo: 30, citron: 20 }))
 console.groupEnd()
 
 /**
- *
+ * Filters out items with a value of less than the cost
  */
 console.group('Exercise 23')
-console.log(expensiveOrders({ john: 40, lars: 50, loldemort: 150, morten: 200 }, 100))
+console.log(
+  expensiveOrders({ john: 40, lars: 50, loldemort: 150, morten: 200 }, 100)
+)
 console.groupEnd()

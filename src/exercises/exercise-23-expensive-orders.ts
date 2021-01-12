@@ -2,23 +2,16 @@ interface Order {
   [key: string]: number
 }
 
-export const expensiveOrders = (orders: Order, cost: number) => {
-  const filteredOrders = Object.entries(orders).filter((order) => {
-    const [, value] = order
-
-    return value > cost
+/**
+ * Function that receives object a set of key:value items pairs then filters out any items with a value less than the cost
+ * @param orders - The object input
+ * @param cost - The cost input to be used in the filter
+ * @returns All items with a value of more than the cost
+ */
+export const expensiveOrders = (orders: Order, cost: number): Order => {
+  const filteredObjects = Object.entries(orders).filter(([, price]) => {
+    return price > cost
   })
 
-  const objects = filteredOrders.map(([title, value]) => {
-    return { [title]: value }
-  })
-
-  return Object.fromEntries([objects])
+  return Object.fromEntries(filteredObjects)
 }
-
-export const getExpensiveOrders = (obj: Order, cost: number) => {
-  return Object.fromEntries(
-    Object.entries(obj).filter(([, price]) => price > cost)
-  )
-}
-
