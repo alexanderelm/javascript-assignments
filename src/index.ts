@@ -25,6 +25,7 @@ import { sumBudgets } from './exercises/exercise-21-sum-of-budget'
 import { freeShipping } from './exercises/exercise-22-online-shopping'
 import { expensiveOrders } from './exercises/exercise-23-expensive-orders'
 import { getLongDevNames } from './exercises/exercise-24-long-names'
+import { sortByLastName } from './exercises/exercise-25-sort-last-names'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -214,5 +215,18 @@ console.log(
     martin: 'long developer name',
     Christoffer: 'head of development',
   })
+)
+console.groupEnd()
+
+/**
+ * Sorts objects by author last name
+ */
+console.group('Exercise 25')
+console.log(
+  sortByLastName([
+    { name: 'Harry Potter', rating: '8+', author: 'Joanne Rowling' },
+    { name: 'Warcross', rating: '13+', author: 'Marie Lu' },
+    { name: 'The Hunger Games', rating: '12+', author: 'Suzanne Collins' },
+  ])
 )
 console.groupEnd()
