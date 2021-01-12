@@ -15,3 +15,10 @@ export const expensiveOrders = (orders: Order, cost: number) => {
 
   return Object.fromEntries([objects])
 }
+
+export const getExpensiveOrders = (obj: Order, cost: number) => {
+  return Object.fromEntries(
+    Object.entries(obj).filter(([, price]) => price > cost)
+  )
+}
+
