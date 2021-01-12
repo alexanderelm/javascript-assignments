@@ -23,6 +23,7 @@ import { sortByLength } from './exercises/exercise-19-sort-by-length'
 import { enoughChange } from './exercises/exercise-20-convenience-store'
 import { sumBudgets } from './exercises/exercise-21-sum-of-budget'
 import { freeShipping } from './exercises/exercise-22-online-shopping'
+import { expensiveOrders } from './exercises/exercise-23-expensive-orders'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -191,4 +192,11 @@ console.log(
  */
 console.group('Exercise 22')
 console.log(freeShipping({ shampoo: 30, citron: 20 }))
+console.groupEnd()
+
+/**
+ *
+ */
+console.group('Exercise 23')
+console.log(expensiveOrders({ john: 40, lars: 50, loldemort: 150, morten: 200 }, 100))
 console.groupEnd()
