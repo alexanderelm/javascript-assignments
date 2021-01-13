@@ -6,5 +6,5 @@
 export const sevenBoom = (numbers: number[]): string => {
   const splitToDigits = numbers.toString().split('').map(Number).includes(7)
 
-  return splitToDigits! ? 'boom' : 'There is no 7 in the array'
+  return splitToDigits! ? 'Boom!' : 'There is no 7 in the array'
 }
