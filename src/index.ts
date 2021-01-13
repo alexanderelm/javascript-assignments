@@ -27,6 +27,7 @@ import { expensiveOrders } from './exercises/exercise-23-expensive-orders'
 import { getLongDevNames } from './exercises/exercise-24-long-names'
 import { sortByLastName } from './exercises/exercise-25-sort-last-names'
 import { sortByLastNameSmart } from './exercises/exercise-25-with-better-data'
+import { sevenBoom } from './exercises/exercise-26-seven-boom'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -259,4 +260,11 @@ console.log(
     },
   ])
 )
+console.groupEnd()
+
+/**
+ * Checks the array trough for a 7
+ */
+console.group('Exercise 26')
+console.log(sevenBoom([5, 87]))
 console.groupEnd()
