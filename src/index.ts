@@ -26,6 +26,7 @@ import { freeShipping } from './exercises/exercise-22-online-shopping'
 import { expensiveOrders } from './exercises/exercise-23-expensive-orders'
 import { getLongDevNames } from './exercises/exercise-24-long-names'
 import { sortByLastName } from './exercises/exercise-25-sort-last-names'
+import { sortByLastNameSmart } from './exercises/exercise-25-with-better-data'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -227,6 +228,19 @@ console.log(
     { name: 'Harry Potter', rating: '8+', author: 'Joanne Rowling' },
     { name: 'Warcross', rating: '13+', author: 'Marie Lu' },
     { name: 'The Hunger Games', rating: '12+', author: 'Suzanne Collins' },
+  ])
+)
+console.groupEnd()
+
+/**
+ * sorts the objects by lastName
+ */
+console.group('Exercise 25 - With better data structure')
+console.log(
+  sortByLastNameSmart([
+    { name: 'Harry Potter', rating: '8+', firstName: 'Joanne', lastName: 'Rowling' },
+    { name: 'Warcross', rating: '13+', firstName: 'Marie', lastName: 'Lu' },
+    { name: 'The Hunger Games', rating: '12+', firstName: 'Suzanne', lastName: 'Collins' },
   ])
 )
 console.groupEnd()
