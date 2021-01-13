@@ -25,6 +25,8 @@ import { sumBudgets } from './exercises/exercise-21-sum-of-budget'
 import { freeShipping } from './exercises/exercise-22-online-shopping'
 import { expensiveOrders } from './exercises/exercise-23-expensive-orders'
 import { getLongDevNames } from './exercises/exercise-24-long-names'
+import { sortByLastName } from './exercises/exercise-25-sort-last-names'
+import { sortByLastNameSmart } from './exercises/exercise-25-with-better-data'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -187,6 +189,7 @@ console.log(
     { name: 'Martin', age: 16, budget: 2700 },
   ])
 )
+console.groupEnd()
 
 /**
  * Sums the price of all the entries and checks weather or not the cart value is above the threshold of free shipping
@@ -214,5 +217,46 @@ console.log(
     martin: 'long developer name',
     Christoffer: 'head of development',
   })
+)
+console.groupEnd()
+
+/**
+ * Sorts objects by author last name
+ */
+console.group('Exercise 25')
+console.log(
+  sortByLastName([
+    { name: 'Harry Potter', rating: '8+', author: 'Joanne Rowling' },
+    { name: 'Warcross', rating: '13+', author: 'Marie Lu' },
+    { name: 'The Hunger Games', rating: '12+', author: 'Suzanne Collins' },
+  ])
+)
+console.groupEnd()
+
+/**
+ * sorts the objects by lastName
+ */
+console.group('Exercise 25 - With better data structure')
+console.log(
+  sortByLastNameSmart([
+    {
+      name: 'Harry Potter',
+      rating: '8+',
+      author: { firstName: 'Julia', lastName: 'Rowling' },
+    },
+    {
+      name: 'Warcross',
+      rating: '13+',
+      author: {
+        firstName: 'Marie',
+        lastName: 'Lu',
+      },
+    },
+    {
+      name: 'The Hunger Games',
+      rating: '12+',
+      author: { firstName: 'Suzanne', lastName: 'Collins' },
+    },
+  ])
 )
 console.groupEnd()
