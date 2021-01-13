@@ -189,6 +189,7 @@ console.log(
     { name: 'Martin', age: 16, budget: 2700 },
   ])
 )
+console.groupEnd()
 
 /**
  * Sums the price of all the entries and checks weather or not the cart value is above the threshold of free shipping
