@@ -239,9 +239,24 @@ console.groupEnd()
 console.group('Exercise 25 - With better data structure')
 console.log(
   sortByLastNameSmart([
-    { name: 'Harry Potter', rating: '8+', firstName: 'Joanne', lastName: 'Rowling' },
-    { name: 'Warcross', rating: '13+', firstName: 'Marie', lastName: 'Lu' },
-    { name: 'The Hunger Games', rating: '12+', firstName: 'Suzanne', lastName: 'Collins' },
+    {
+      name: 'Harry Potter',
+      rating: '8+',
+      author: { firstName: 'Julia', lastName: 'Rowling' },
+    },
+    {
+      name: 'Warcross',
+      rating: '13+',
+      author: {
+        firstName: 'Marie',
+        lastName: 'Lu',
+      },
+    },
+    {
+      name: 'The Hunger Games',
+      rating: '12+',
+      author: { firstName: 'Suzanne', lastName: 'Collins' },
+    },
   ])
 )
 console.groupEnd()
