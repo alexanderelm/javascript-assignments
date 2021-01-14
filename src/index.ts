@@ -28,6 +28,7 @@ import { getLongDevNames } from './exercises/exercise-24-long-names'
 import { sortByLastName } from './exercises/exercise-25-sort-last-names'
 import { sortByLastNameSmart } from './exercises/exercise-25-with-better-data'
 import { sevenBoom } from './exercises/exercise-26-seven-boom'
+import { getTopNotes } from './exercises/exercise-27-top-notes'
 
 /**
  * Converts 5 minutes to seconds in console
@@ -235,7 +236,7 @@ console.log(
 console.groupEnd()
 
 /**
- * sorts the objects by lastName
+ * Sorts the objects by lastName
  */
 console.group('Exercise 25 - With better data structure')
 console.log(
@@ -267,4 +268,17 @@ console.groupEnd()
  */
 console.group('Exercise 26')
 console.log(sevenBoom([5, 87]))
+console.groupEnd()
+
+/**
+ * Finds the best note for each student object
+ */
+console.group('Exercise 27')
+console.log(
+  getTopNotes([
+    { id: 1, name: 'Alex', notes: [4, 5, 3, 8] },
+    { id: 2, name: 'John', notes: [4, 5, 4, 4] },
+    { id: 2, name: 'Jes Dorph', notes: [4, 5, 4, 10] }
+  ])
+)
 console.groupEnd()
